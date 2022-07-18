@@ -1,0 +1,28 @@
+.video_reproduzir{
+position: relative;
+width:100%;
+height: 300px;
+cursor: pointer;
+}
+.video-video{
+position: absolute;
+width:100%;
+height: 100%;
+top: 0;
+left: 0;
+}
+.video-imagem{
+position: absolute;
+width: auto;
+height: 100%;
+top: 0;
+left: 0;
+object-fit: cover;
+
+}
+.video-imagem.visivel{
+    display: inherit;
+}
+.video-imagem.invisivel{
+    display: none;
+}
